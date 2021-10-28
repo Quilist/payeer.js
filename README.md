@@ -6,9 +6,9 @@ npm i payeer.js
 ```
 # Basic Usage
 ```js
-const payeer = require('payeer.js')
+const Payeer = require('payeer.js')
 
-const client = new payeer.Payeer(
+const client = new Payeer.default(
     'P100000',
     'api_id',
     'api_password'
